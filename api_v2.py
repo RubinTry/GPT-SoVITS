@@ -15,7 +15,7 @@
 endpoint: `/tts`
 GET:
 ```
-http://127.0.0.1:9880/tts?text=先帝创业未半而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。&text_lang=zh&ref_audio_path=archive_jingyuan_1.wav&prompt_lang=zh&prompt_text=我是「罗浮」云骑将军景元。不必拘谨，「将军」只是一时的身份，你称呼我景元便可&text_split_method=cut5&batch_size=1&media_type=wav&streaming_mode=true
+http://127.0.0.1:9880/tts?text={泛星云遥的大家，早上好呀}&text_lang=zh&ref_audio_path=klee.wav&prompt_lang=zh&prompt_text={买东西那天也有一个人帮了开了款式，那个人好像叫}&text_split_method=cut5&batch_size=1&media_type=wav&streaming_mode=false
 ```
 
 POST:
